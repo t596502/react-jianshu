@@ -1,2 +1,2 @@
-# react-blog
-基于react搭建的博客
+# react-jianshu
+基于react搭建的简书项目
