@@ -9,7 +9,6 @@ class App extends Component {
   render() {
     return (
         <Provider store={store}>
-          <div className="App">
               <BrowserRouter>
                   <div>
                       <Header />
@@ -17,7 +16,6 @@ class App extends Component {
                       <Route path="/detail" exact component={Detail} ></Route>
                   </div>
               </BrowserRouter>
-          </div>
         </Provider>
 
     );

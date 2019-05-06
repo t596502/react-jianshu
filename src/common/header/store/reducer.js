@@ -10,7 +10,6 @@ const defaultState = fromJS({
 });
 
 const reducer = (state = defaultState,action)=>{
-    console.log(action);
     switch (action.type) {
         case constants.SEARCH_FOCUS:
             return state.set('focused', true);
